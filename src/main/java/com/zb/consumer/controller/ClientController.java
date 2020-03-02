@@ -49,6 +49,7 @@ public class ClientController {
 
     @RequestMapping("/new")
     public String add(){
+        System.out.println("转到新增页面");
         return "new";
     }
 
